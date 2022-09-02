@@ -1,60 +1,24 @@
-# GMeet : A Google Meet Clone
+# Video-chat-v1
 
-GMeet is a video calling platform similar to Google Meet made using NodeJS. 
+Video-chat-v1 is a video chat app that makes it easy to groups up with people you want to meet
 
+![IMG](./video-chat.png)
 
-## Visit the official website!
+Check out the live demo: https://video-chat-app-v1.herokuapp.com/
 
-Visit the website from this link : https://google-meeting.herokuapp.com/
+An article I wrote which explains how I build this: https://bit.ly/3wh0gyR
 
+This app is build using NodeJS, Socket.io, and Peerjs(WebRTC)
 
-## Features
+## How to run the project?
 
-- Create unique meeting links, people only with a given link can join that meeting.
-- Turn on/off your audio video.
-- Share your screen.
-- Chat on a chatbox that stays active during the whole meeting.
-  
-## Tech Stack
+1. Clone this repository in your local system.
+2. Open the command prompt from your project directory and run the command `npm install`.
+3. Open the command prompt from your project directory and run the command `npm start`.
+4. Go to your browser and type `http://127.0.0.1:3030/` in the address bar.
+5. Hurray! That's it.
 
-**Client:** HTML, CSS, JavaScript. 
+### ToDo
 
-**Server:** Node.JS, Express.JS.
+- [ ] - Recreate the Front-end with React.
 
-
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/rajarshisg/Google-Meet-Clone.git
-```
-
-Go to the project directory
-
-```bash
-  cd Google-Meet-Clone
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm start
-```
-
-
-## Authors
-
-- [@rajarshisg](https://github.com/rajarshisg)
-
-  
-
-    
-
-  
